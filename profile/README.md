@@ -20,8 +20,4 @@ Im `dragprog`, a C++ developer specialising in graphics, systems programming and
 
 ---
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dragprog&theme=radical)](https://git.io/streak-bounce)
-
----
-
 ![Visitor Count](https://komarev.com/ghpvc/?username=dragprog&color=blueviolet&style=flat-square)

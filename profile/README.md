@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/github/followers/dragprog?style=for-the-badge&logo=github&labelColor=1a1408&color=fffbb0" />
 </p>
 
+## 🖥️ Portfolio
+
+[![View Terminal Portfolio](https://img.shields.io/badge/View-Terminal_Portfolio-fffbb0?style=for-the-badge&logo=gnu-bash&logoColor=0c0a08&labelColor=1a1408)](https://dragprog.github.io)
+
 ---
 
 ## 🚀 About Me

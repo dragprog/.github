@@ -1,149 +1,54 @@
-<!-- Animated Header Banner — warm amber liquid glass gradient -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fffbb0,40:f7d49e,70:e8a87c,100:0a0703&height=240&section=header&text=dragprog&fontSize=80&fontColor=fffbb0&animation=fadeIn&fontAlignY=32&desc=Systems%20%7C%20Graphics%20%7C%20Backend&descAlignY=58&descSize=18&descColor=f7d49e&font=JetBrains%20Mono" />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=FFFBB0&center=true&vCenter=true&width=700&lines=High-Performance+Computing;Low-Level+Graphics+Pipelines;Distributed+Backend+Architectures;Zero-Cost+Abstractions;Systems+Engineering;Compiler+Design+%26+Toolchains" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-Developer-fffbb0?style=for-the-badge&logo=cplusplus&logoColor=0a0703&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Systems-Engineer-f7d49e?style=for-the-badge&logo=linux&logoColor=0a0703&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Graphics-Programmer-e8a87c?style=for-the-badge&logo=opengl&logoColor=0a0703&labelColor=1a1408" />
-  <img src="https://img.shields.io/github/followers/dragprog?style=for-the-badge&logo=github&labelColor=1a1408&color=fffbb0" />
-</p>
-
-## 🖥️ Portfolio
-
-[![View Terminal Portfolio](https://img.shields.io/badge/View-Terminal_Portfolio-fffbb0?style=for-the-badge&logo=gnu-bash&logoColor=0c0a08&labelColor=1a1408)](https://dragprog.github.io)
-
----
-
-## 🚀 About Me
-
-I am a passionate software engineer deeply fascinated by the intersection of **high-performance computing**, **hardware-adjacent systems**, and **scalable infrastructure**. Whether I'm micro-optimizing memory layouts, rendering real-time scenes, or architecting robust backend services, I love building software that is fast, reliable, and elegant from the metal all the way up to the cloud.
-
+<!-- Header Banner -->
 <div align="center">
-
-| 🔭 **Currently exploring** | ⚡ **Core Philosophy** | 💬 **Ask me about** |
-|:---:|:---:|:---:|
-| Advanced template metaprogramming, low-level graphics pipelines, and distributed backend architectures. | Clean code, zero-cost abstractions, and writing software that respects hardware limits. | C++, systems engineering, compiler design, or custom toolchains! |
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0284c7&height=200&section=header&text=dragprog&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SystemVerilog%20%7C%20RTL%20Design%20%7C%20VLSI&descAlignY=58&descSize=18" width="100%" alt="Header Banner"/>
 </div>
-
----
-
-## 🔬 What I Actually Do
-
-### ⚙️ Systems Engineering — Making Hardware Sing
-
-I build software that lives as close to the metal as possible. My day-to-day involves:
-
-- **Memory layout optimization** — Designing cache-friendly data structures, minimizing allocations, and eliminating false sharing in multi-threaded contexts. I profile cache miss rates and redesign layouts to maximize L1/L2 utilization.
-- **Concurrency & parallelism** — Lock-free algorithms, thread pools, work-stealing schedulers, and NUMA-aware task distribution. I reason about memory ordering, atomics, and cache coherency protocols.
-- **Zero-cost abstractions** — Heavy use of C++20/23 concepts, `constexpr` evaluation, and compile-time polymorphism to push as much work as possible to compile-time. If it doesn't optimize away, it doesn't ship.
-- **Performance profiling** — Intel VTune, `perf`, Tracy, and custom instrumentation to find and eliminate bottlenecks at the instruction level. I read assembly to verify the compiler did what I asked.
-- **Hardware integration** — Writing kernel modules and userspace drivers, interfacing with DMA engines, and understanding microarchitectural behavior: branch prediction, prefetching, out-of-order execution, and SIMD utilization.
-
-### 🎨 Graphics Programming — Pushing Pixels with Purpose
-
-Real-time rendering is where math meets the GPU. Here's what that looks like in practice:
-
-- **Graphics API mastery** — **Vulkan** is my primary API. I write render passes, manage descriptor sets, optimize command buffer submission, and handle synchronization with semaphores and fences. OpenGL for legacy and rapid prototyping.
-- **Shader development** — GLSL/HLSL for vertex, fragment, compute, and ray-tracing pipelines. I write physically-based shading models (Cook-Torrance, GGX), custom lighting equations, and procedural texture generation.
-- **Pipeline architecture** — Deferred rendering, clustered forward shading, bindless resource management, and multi-pass post-processing chains (bloom, SSAO, tone mapping, FXAA/TAA).
-- **GPU optimization** — Reducing render state changes, batching draw calls, GPU-driven rendering with indirect draws, and profiling with RenderDoc & Nsight. I optimize for occupancy and memory bandwidth, not just ALU throughput.
-- **Cross-platform** — Ensuring consistent behavior across Linux (Wayland/X11), Windows, and embedded targets. Handling swapchain recreation, surface formats, and platform-specific quirks.
-
-### ☁️ Cloud Backend Architecture — Scale Without Compromise
-
-On the other end of the stack, I design services that handle thousands of concurrent connections without breaking a sweat:
-
-- **High-throughput services** — Building async I/O servers using `epoll`/`kqueue`/`io_uring` in C++ and Python. Handling 100k+ concurrent connections with minimal memory overhead per connection.
-- **Container orchestration** — Docker for reproducible builds, multi-stage images for minimal attack surface, and efficient layer caching. CI/CD pipelines with GitHub Actions for automated testing and deployment.
-- **API design** — RESTful and gRPC APIs with strict versioning, OpenAPI specs, comprehensive load testing (k6, Locust), and backward compatibility guarantees.
-- **Observability** — Structured logging (JSON), distributed tracing with OpenTelemetry, and metrics dashboards (Prometheus/Grafana). I believe you can't optimize what you can't measure.
-- **Resilience patterns** — Circuit breakers, rate limiting, backpressure handling, and graceful degradation under load. Services that fail gracefully, not catastrophically.
-
-### 🛠️ Tooling & Compiler Design — Building the Build
-
-Beyond application code, I invest heavily in the developer experience:
-
-- **Custom toolchains** — Clang/LLVM plugins for static analysis, source-to-source transformation tools, and custom compiler passes for domain-specific optimizations.
-- **Build systems** — CMake power-user (modern target-based approach), Bazel migration expert for hermetic builds, and custom build graph optimizers to reduce incremental build times.
-- **Language experimentation** — Designing small DSLs and toy compilers to explore type systems, IR generation (LLVM IR, SPIR-V), and optimization passes. Understanding how high-level code maps to machine code.
-- **Scripting & automation** — Python and Bash for build orchestration, code generation, deployment pipelines, and infrastructure-as-code.
-
----
-
-## 🛠️ Technical Expertise
-
+​<!-- Animated Typing SVG -->
 <div align="center">
-
-### Systems & Languages
-<p>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=fffbb0&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=f7d49e&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=e8a87c&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=fffbb0&labelColor=1a1408" />
-</p>
-
-### Graphics & Low-Level
-<p>
-  <img src="https://img.shields.io/badge/OpenGL-555555?style=for-the-badge&logo=opengl&logoColor=f7d49e&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Vulkan-DE3163?style=for-the-badge&logo=vulkan&logoColor=e8a87c&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=0a0703&labelColor=fffbb0" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=f7d49e&labelColor=1a1408" />
-</p>
-
-### Cloud & Backend
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fffbb0&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/Linux%20Server-FCC624?style=for-the-badge&logo=linux&logoColor=0a0703&labelColor=f7d49e" />
-  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=postman&logoColor=e8a87c&labelColor=1a1408" />
-  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=fffbb0&labelColor=1a1408" />
-</p>
-
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Hey%2C+I'm+dragprog.;Learning+digital+design%2C+SystemVerilog+%26+VLSI.;Writing+RTL+and+chasing+timing+closure." alt="Typing SVG" />
+</a>
 </div>
-
----
-
-## 🎯 What I Focus On
-
+​<!-- Profile & Social Shields -->
 <div align="center">
-
-| ⚙️ Systems Engineering | 🎨 Graphics Programming | ☁️ Cloud Backend Architecture |
-|:---:|:---:|:---:|
-| Building robust, low-latency applications where every cycle and byte matters. Deep dives into memory management, concurrency models, and hardware-software integration. | Pushing pixels and harnessing the GPU. Writing shaders, managing rendering pipelines, and mastering Vulkan & OpenGL for real-time visuals. | Designing scalable, resilient, high-throughput backend services handling heavy concurrent workloads with minimal latency. |
-
+<a href="https://github.com/dragprog">
+<img src="https://img.shields.io/badge/GitHub-dragprog-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=dragprog&label=PROFILE%20VIEWS&color=0284c7&style=for-the-badge" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/dragprog?label=FOLLOWERS&style=for-the-badge&color=1e3a8a" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/dragprog?label=TOTAL%20STARS&style=for-the-badge&color=0f172a" alt="Stars"/>
 </div>
-
----
-
-## 📊 GitHub Stats
-
+​About Me
+​I'm dragprog, a beginner in hardware engineering learning SystemVerilog, RTL design, and VLSI.
+​I'm working my way up from basic digital logic gates to writing synthesizable hardware, building testbenches, and understanding how RTL actually gets turned into a physical chip layout. Mostly spending my time reading datasheets, debugging waveforms in GTKWave, and figuring out open-source EDA tools.
+​Currently learning: SystemVerilog RTL & verification basics, Static Timing Analysis (STA), and the OpenLane RTL-to-GDSII flow.
+​Focus areas: Digital logic design, finite state machines, computer architecture, and physical design fundamentals.
+​OS & Environment: Linux, Makefiles, and open-source simulation/synthesis tools.
+​Tools & Languages
+​HDLs & Programming
+​Scripting & Build
+​EDA & Dev Tools
+​What I'm Studying
+​[x] Digital Logic: Boolean algebra, Karnaugh maps, combinational/sequential circuits, and FSMs (Mealy & Moore).
+​[x] Verilog & SystemVerilog: always_comb, always_ff, blocking vs. non-blocking assignments, interfaces, and parameterized modules.
+​[ ] Verification: Self-checking testbenches, constrained-random testing, assertions (SVA), and functional coverage.
+​[ ] Computer Architecture: Instruction set architectures (RISC-V), datapaths, control units, and pipelining.
+​[ ] VLSI & Physical Design: Logic synthesis (Yosys), floorplanning, placement, clock tree synthesis (CTS), routing (OpenROAD), and STA.
+​GitHub Stats & Activity
+​<div align="center">
+<!-- GitHub Stats Card (Stars, Commits, PRs, Issues) -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dragprog&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=38bdf8&title_color=38bdf8&icon_color=38bdf8" alt="GitHub Stats"/>
+​<!-- Top Languages Card -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dragprog&layout=compact&langs_count=8&theme=tokyonight&border_color=38bdf8&title_color=38bdf8" alt="Top Languages"/>
+</div>
+​<div align="center">
+<!-- Contribution Streak Stats -->
+<img src="https://streak-stats.demolab.com?user=dragprog&theme=tokyonight&border=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak"/>
+</div>
+​<div align="center">
+<!-- Animated Contribution Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dragprog&theme=tokyo-night&bg_color=0f172a&color=38bdf8&line=0284c7&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
+</div>
+​<!-- Footer Banner -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dragprog&show_icons=true&theme=dark&hide_border=true&bg_color=0a0703&title_color=fffbb0&icon_color=f7d49e&text_color=f5e6c8&ring=fffbb0&border_radius=16" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dragprog&layout=compact&theme=dark&hide_border=true&bg_color=0a0703&title_color=fffbb0&text_color=f5e6c8&border_radius=16" height="180" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0284c7,50:1e3a8a,100:0f172a&height=110&section=footer" width="100%" alt="Footer Banner"/>
 </div>
-
-<div align="center" style="margin-top: 16px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dragprog&theme=dark&hide_border=true&background=0a0703&stroke=fffbb0&ring=f7d49e&fire=e8a87c&currStreakLabel=fffbb0&sideLabels=f5e6c8&dates=b8a88a&border_radius=16" />
-</div>
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dragprog&theme=react-dark&hide_border=true&line=fffbb0&point=f7d49e&area=true&area_color=fffbb020&bg_color=0a0703&color=f5e6c8" />
-</div>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fffbb0,40:f7d49e,70:e8a87c,100:0a0703&height=120&section=footer" />
-</p>
